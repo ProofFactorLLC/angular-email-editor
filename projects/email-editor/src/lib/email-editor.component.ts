@@ -9,6 +9,7 @@ declare module unlayer {
 
 export interface UnlayerOptions {
   projectId?: number;
+  templateId?: string;
   tools?: object;
   appearance?: object;
   locale?: string;
